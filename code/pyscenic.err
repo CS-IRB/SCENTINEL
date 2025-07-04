@@ -1,0 +1,1317 @@
+
+2025-07-03 14:35:09,311 - pyscenic.cli.pyscenic - INFO - Loading expression matrix.
+
+2025-07-03 14:35:17,840 - pyscenic.cli.pyscenic - INFO - Inferring regulatory networks.
+/data/ebaird/miniconda3/envs/pyscenic/lib/python3.10/site-packages/distributed/client.py:3106: UserWarning: Sending large graph of size 211.33 MiB.
+This may cause some slowdown.
+Consider scattering data ahead of time and using futures.
+  warnings.warn(
+2025-07-03 15:30:51,907 - distributed.nanny - WARNING - Worker process still alive after 3.1999992370605472 seconds, killing
+2025-07-03 15:30:51,908 - distributed.nanny - WARNING - Worker process still alive after 3.1999995422363288 seconds, killing
+2025-07-03 15:30:51,909 - distributed.nanny - WARNING - Worker process still alive after 3.199999694824219 seconds, killing
+2025-07-03 15:30:51,909 - distributed.nanny - WARNING - Worker process still alive after 3.199994201660157 seconds, killing
+2025-07-03 15:30:51,910 - distributed.nanny - WARNING - Worker process still alive after 3.1999992370605472 seconds, killing
+2025-07-03 15:30:51,910 - distributed.nanny - WARNING - Worker process still alive after 3.199999694824219 seconds, killing
+2025-07-03 15:30:51,910 - distributed.nanny - WARNING - Worker process still alive after 3.1999995422363288 seconds, killing
+2025-07-03 15:30:51,910 - distributed.nanny - WARNING - Worker process still alive after 3.1999995422363288 seconds, killing
+2025-07-03 15:30:51,910 - distributed.nanny - WARNING - Worker process still alive after 3.1999995422363288 seconds, killing
+2025-07-03 15:30:51,910 - distributed.nanny - WARNING - Worker process still alive after 3.199999389648438 seconds, killing
+2025-07-03 15:30:51,910 - distributed.nanny - WARNING - Worker process still alive after 3.199999389648438 seconds, killing
+2025-07-03 15:30:51,910 - distributed.nanny - WARNING - Worker process still alive after 3.1999992370605472 seconds, killing
+2025-07-03 15:30:51,911 - distributed.nanny - WARNING - Worker process still alive after 3.199999389648438 seconds, killing
+2025-07-03 15:30:51,913 - distributed.nanny - WARNING - Worker process still alive after 3.1999995422363288 seconds, killing
+2025-07-03 15:30:51,915 - distributed.nanny - WARNING - Worker process still alive after 3.199997711181641 seconds, killing
+2025-07-03 15:30:51,915 - distributed.nanny - WARNING - Worker process still alive after 3.1999980163574224 seconds, killing
+2025-07-03 15:30:51,915 - distributed.nanny - WARNING - Worker process still alive after 3.1999981689453127 seconds, killing
+2025-07-03 15:30:51,915 - distributed.nanny - WARNING - Worker process still alive after 3.1999983215332035 seconds, killing
+2025-07-03 15:30:51,915 - distributed.nanny - WARNING - Worker process still alive after 3.199998474121094 seconds, killing
+2025-07-03 15:30:51,916 - distributed.nanny - WARNING - Worker process still alive after 3.1999983215332035 seconds, killing
+2025-07-03 15:30:51,916 - distributed.nanny - WARNING - Worker process still alive after 3.1999987792968754 seconds, killing
+2025-07-03 15:30:51,916 - distributed.nanny - WARNING - Worker process still alive after 3.199998474121094 seconds, killing
+2025-07-03 15:30:51,916 - distributed.nanny - WARNING - Worker process still alive after 3.1999980163574224 seconds, killing
+2025-07-03 15:30:51,920 - distributed.nanny - WARNING - Worker process still alive after 3.1999987792968754 seconds, killing
+
+2025-07-03 15:30:52,082 - pyscenic.cli.pyscenic - INFO - Writing results to file.
+
+2025-07-03 15:31:32,968 - pyscenic.cli.pyscenic - INFO - Creating modules.
+
+2025-07-03 15:31:33,407 - pyscenic.cli.pyscenic - INFO - Loading expression matrix.
+
+2025-07-03 15:31:44,352 - pyscenic.utils - INFO - Calculating Pearson correlations.
+
+2025-07-03 15:31:44,449 - pyscenic.utils - WARNING - Note on correlation calculation: the default behaviour for calculating the correlations has changed after pySCENIC verion 0.9.16. Previously, the default was to calculate the correlation between a TF and target gene using only cells with non-zero expression values (mask_dropouts=True). The current default is now to use all cells to match the behavior of the R verision of SCENIC. The original settings can be retained by setting 'rho_mask_dropouts=True' in the modules_from_adjacencies function, or '--mask_dropouts' from the CLI.
+	Dropout masking is currently set to [True].
+
+2025-07-03 15:32:02,293 - pyscenic.utils - INFO - Creating modules.
+
+2025-07-03 15:32:19,128 - pyscenic.cli.pyscenic - INFO - Loading databases.
+
+2025-07-03 15:32:19,612 - pyscenic.cli.pyscenic - INFO - Calculating regulons.
+
+2025-07-03 15:32:19,613 - pyscenic.prune - INFO - Using 24 workers.
+
+2025-07-03 15:32:19,613 - pyscenic.prune - INFO - Using 24 workers.
+
+2025-07-03 15:32:21,010 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(2): database loaded in memory.
+
+2025-07-03 15:32:21,010 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(2): database loaded in memory.
+
+2025-07-03 15:32:21,273 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(17): database loaded in memory.
+
+2025-07-03 15:32:21,273 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(17): database loaded in memory.
+
+2025-07-03 15:32:21,282 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(1): database loaded in memory.
+
+2025-07-03 15:32:21,282 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(1): database loaded in memory.
+
+2025-07-03 15:32:21,313 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(3): database loaded in memory.
+
+2025-07-03 15:32:21,313 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(3): database loaded in memory.
+
+2025-07-03 15:32:21,320 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(4): database loaded in memory.
+
+2025-07-03 15:32:21,320 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(4): database loaded in memory.
+
+2025-07-03 15:32:21,340 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(13): database loaded in memory.
+
+2025-07-03 15:32:21,340 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(13): database loaded in memory.
+
+2025-07-03 15:32:21,763 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(16): database loaded in memory.
+
+2025-07-03 15:32:21,763 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(16): database loaded in memory.
+
+2025-07-03 15:32:21,810 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(8): database loaded in memory.
+
+2025-07-03 15:32:21,810 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(8): database loaded in memory.
+
+2025-07-03 15:32:21,820 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(7): database loaded in memory.
+
+2025-07-03 15:32:21,820 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(7): database loaded in memory.
+
+2025-07-03 15:32:21,881 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(19): database loaded in memory.
+
+2025-07-03 15:32:21,881 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(19): database loaded in memory.
+
+2025-07-03 15:32:21,882 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(6): database loaded in memory.
+
+2025-07-03 15:32:21,882 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(6): database loaded in memory.
+
+2025-07-03 15:32:21,891 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(12): database loaded in memory.
+
+2025-07-03 15:32:21,891 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(12): database loaded in memory.
+
+2025-07-03 15:32:21,901 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(11): database loaded in memory.
+
+2025-07-03 15:32:21,901 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(11): database loaded in memory.
+
+2025-07-03 15:32:21,927 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(9): database loaded in memory.
+
+2025-07-03 15:32:21,927 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(9): database loaded in memory.
+
+2025-07-03 15:32:21,948 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(10): database loaded in memory.
+
+2025-07-03 15:32:21,948 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(10): database loaded in memory.
+
+2025-07-03 15:32:21,954 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(14): database loaded in memory.
+
+2025-07-03 15:32:21,954 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(14): database loaded in memory.
+
+2025-07-03 15:32:21,957 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(15): database loaded in memory.
+
+2025-07-03 15:32:21,957 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(15): database loaded in memory.
+
+2025-07-03 15:32:21,959 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(5): database loaded in memory.
+
+2025-07-03 15:32:21,959 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(5): database loaded in memory.
+
+2025-07-03 15:32:21,968 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(20): database loaded in memory.
+
+2025-07-03 15:32:21,968 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(20): database loaded in memory.
+
+2025-07-03 15:32:21,986 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(22): database loaded in memory.
+
+2025-07-03 15:32:21,986 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(22): database loaded in memory.
+
+2025-07-03 15:32:21,990 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(23): database loaded in memory.
+
+2025-07-03 15:32:21,990 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(23): database loaded in memory.
+
+2025-07-03 15:32:21,991 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(24): database loaded in memory.
+
+2025-07-03 15:32:21,991 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(24): database loaded in memory.
+
+2025-07-03 15:32:22,001 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(18): database loaded in memory.
+
+2025-07-03 15:32:22,001 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(18): database loaded in memory.
+
+2025-07-03 15:32:22,001 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(21): database loaded in memory.
+
+2025-07-03 15:32:22,001 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(21): database loaded in memory.
+
+2025-07-03 15:32:22,621 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(4): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,621 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(4): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,628 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(17): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,628 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(17): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,641 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(13): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,641 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(13): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,654 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(1): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,654 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(1): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,686 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(3): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,686 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(3): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,687 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(2): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,687 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(2): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,724 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(16): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,724 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(16): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,776 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(24): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,776 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(24): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,904 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(12): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,904 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(12): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,914 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(19): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,914 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(19): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,947 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(11): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,947 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(11): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,950 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(10): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,950 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(10): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,950 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(6): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,950 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(6): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,958 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(5): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,958 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(5): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,958 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(9): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,958 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(9): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,960 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(14): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,960 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(14): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,971 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(23): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,971 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(23): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,985 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(18): motif annotations loaded in memory.
+
+2025-07-03 15:32:22,985 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(18): motif annotations loaded in memory.
+
+2025-07-03 15:32:23,024 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(8): motif annotations loaded in memory.
+
+2025-07-03 15:32:23,024 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(8): motif annotations loaded in memory.
+
+2025-07-03 15:32:23,055 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(7): motif annotations loaded in memory.
+
+2025-07-03 15:32:23,055 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(7): motif annotations loaded in memory.
+
+2025-07-03 15:32:23,117 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(22): motif annotations loaded in memory.
+
+2025-07-03 15:32:23,117 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(22): motif annotations loaded in memory.
+
+2025-07-03 15:32:23,184 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(15): motif annotations loaded in memory.
+
+2025-07-03 15:32:23,184 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(15): motif annotations loaded in memory.
+
+2025-07-03 15:32:23,195 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(20): motif annotations loaded in memory.
+
+2025-07-03 15:32:23,195 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(20): motif annotations loaded in memory.
+
+2025-07-03 15:32:23,217 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(21): motif annotations loaded in memory.
+
+2025-07-03 15:32:23,217 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(21): motif annotations loaded in memory.
+
+2025-07-03 15:32:27,972 - pyscenic.transform - WARNING - Less than 80% of the genes in cyc could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,006 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for otp could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,044 - pyscenic.transform - WARNING - Less than 80% of the genes in CG12129 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,059 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for PpD3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,065 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for egg could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,089 - pyscenic.transform - WARNING - Less than 80% of the genes in esg could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,221 - pyscenic.transform - WARNING - Less than 80% of the genes in tll could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,235 - pyscenic.transform - WARNING - Less than 80% of the genes in E(spl)m8-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,445 - pyscenic.transform - WARNING - Less than 80% of the genes in dati could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,525 - pyscenic.transform - WARNING - Less than 80% of the genes in CG1236 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,540 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for elB could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,547 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for nom could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,568 - pyscenic.transform - WARNING - Less than 80% of the genes in ewg could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,665 - pyscenic.transform - WARNING - Less than 80% of the genes in NUCB1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,715 - pyscenic.transform - WARNING - Less than 80% of the genes in E(spl)mbeta-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:28,857 - pyscenic.transform - WARNING - Less than 80% of the genes in Nelf-A could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,154 - pyscenic.transform - WARNING - Less than 80% of the genes in Nelf-A could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,170 - pyscenic.transform - WARNING - Less than 80% of the genes in bsh could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,239 - pyscenic.transform - WARNING - Less than 80% of the genes in E(spl)mdelta-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,309 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for disco-r could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,344 - pyscenic.transform - WARNING - Less than 80% of the genes in Nnk could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,400 - pyscenic.transform - WARNING - Less than 80% of the genes in dpn could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,446 - pyscenic.transform - WARNING - Less than 80% of the genes in exd could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,453 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Elba2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,493 - pyscenic.transform - WARNING - Less than 80% of the genes in nom could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,547 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Socs36E could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,556 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Abl could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,630 - pyscenic.transform - WARNING - Less than 80% of the genes in Oli could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,641 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG2116 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,653 - pyscenic.transform - WARNING - Less than 80% of the genes in btd could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,836 - pyscenic.transform - WARNING - Less than 80% of the genes in Oli could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,887 - pyscenic.transform - WARNING - Less than 80% of the genes in egg could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,925 - pyscenic.transform - WARNING - Less than 80% of the genes in fd102C could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:29,987 - pyscenic.transform - WARNING - Less than 80% of the genes in CG2116 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:30,000 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for peb could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:30,074 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Rbf could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:30,114 - pyscenic.transform - WARNING - Less than 80% of the genes in Optix could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:30,124 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG2608 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:30,142 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for sage could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:30,162 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Sox102F could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:30,370 - pyscenic.transform - WARNING - Less than 80% of the genes in elB could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:30,402 - pyscenic.transform - WARNING - Less than 80% of the genes in foxo could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:30,477 - pyscenic.transform - WARNING - Less than 80% of the genes in Cf2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:30,546 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for erm could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:30,622 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for salm could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:30,901 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Fer1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:30,943 - pyscenic.transform - WARNING - Less than 80% of the genes in CG31673 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:31,084 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG31388 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:31,341 - pyscenic.transform - WARNING - Less than 80% of the genes in ewg could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:31,384 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Fer2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:31,468 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for pan could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:31,575 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG31673 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:31,583 - pyscenic.transform - WARNING - Less than 80% of the genes in Pdp1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:31,860 - pyscenic.transform - WARNING - Less than 80% of the genes in ftz-f1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:31,919 - pyscenic.transform - WARNING - Less than 80% of the genes in CG3328 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:32,060 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG32075 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:32,065 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for scro could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:32,402 - pyscenic.transform - WARNING - Less than 80% of the genes in CG34031 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:32,544 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG3328 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:32,553 - pyscenic.transform - WARNING - Less than 80% of the genes in PpD3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:32,898 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for E(spl)m5-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:32,912 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for pds5 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:33,025 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG34031 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:33,051 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for sens-2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:33,251 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for cbt could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:33,293 - pyscenic.transform - WARNING - Less than 80% of the genes in grn could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:33,361 - pyscenic.transform - WARNING - Less than 80% of the genes in PpD3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:33,409 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for peb could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:33,498 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG34354 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:33,570 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for SMC3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:33,733 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for elB could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:33,838 - pyscenic.transform - WARNING - Less than 80% of the genes in CG5641 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:33,924 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for sage could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:33,980 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG42458 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:33,994 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG10463 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:34,056 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Scr could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:34,271 - pyscenic.transform - WARNING - Less than 80% of the genes in vri could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:34,411 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for salm could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:34,477 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG11085 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:34,707 - pyscenic.transform - WARNING - Less than 80% of the genes in grn could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:34,805 - pyscenic.transform - WARNING - Less than 80% of the genes in vvl could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:34,991 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for sima could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:35,228 - pyscenic.transform - WARNING - Less than 80% of the genes in her could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:35,297 - pyscenic.transform - WARNING - Less than 80% of the genes in CG7839 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:35,349 - pyscenic.transform - WARNING - Less than 80% of the genes in Rbf could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:35,482 - pyscenic.transform - WARNING - Less than 80% of the genes in RfC38 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:35,565 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Socs36E could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:35,668 - pyscenic.transform - WARNING - Less than 80% of the genes in hth could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:36,187 - pyscenic.transform - WARNING - Less than 80% of the genes in hppy could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:36,262 - pyscenic.transform - WARNING - Less than 80% of the genes in CG9281 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:36,678 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for dati could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:36,811 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for MTF-1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:36,828 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for sens-2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:36,839 - pyscenic.transform - WARNING - Less than 80% of the genes in Dref could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:36,853 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG2116 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:37,052 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Sox21b could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:37,086 - pyscenic.transform - WARNING - Less than 80% of the genes in FoxK could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:37,214 - pyscenic.transform - WARNING - Less than 80% of the genes in CG9650 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:37,290 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for sage could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:37,589 - pyscenic.transform - WARNING - Less than 80% of the genes in ken could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:37,642 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for disco-r could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:37,695 - pyscenic.transform - WARNING - Less than 80% of the genes in CHES-1-like could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:37,771 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for salm could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:37,926 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for fd59A could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:38,072 - pyscenic.transform - WARNING - Less than 80% of the genes in ktub could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:38,105 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Hmx could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:38,204 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for fd59A could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:38,269 - pyscenic.transform - WARNING - Less than 80% of the genes in E(spl)m5-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:38,299 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Strn-Mlck could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:38,304 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG31388 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:38,419 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Met could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:38,508 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG7839 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:38,545 - pyscenic.transform - WARNING - Less than 80% of the genes in lilli could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:38,555 - pyscenic.transform - WARNING - Less than 80% of the genes in peb could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:38,618 - pyscenic.transform - WARNING - Less than 80% of the genes in ken could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:38,760 - pyscenic.transform - WARNING - Less than 80% of the genes in Abl could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:38,793 - pyscenic.transform - WARNING - Less than 80% of the genes in SMC3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:38,863 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for scro could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:39,148 - pyscenic.transform - WARNING - Less than 80% of the genes in CenG1A could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:39,249 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Syp could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:39,270 - pyscenic.transform - WARNING - Less than 80% of the genes in Scr could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:39,387 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for fru could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:39,578 - pyscenic.transform - WARNING - Less than 80% of the genes in ktub could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:39,593 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG8319 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:39,624 - pyscenic.transform - WARNING - Less than 80% of the genes in Cf2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:39,743 - pyscenic.transform - WARNING - Less than 80% of the genes in E(spl)mbeta-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:39,834 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for sens-2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:40,055 - pyscenic.transform - WARNING - Less than 80% of the genes in lilli could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:40,066 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for egg could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:40,096 - pyscenic.transform - WARNING - Less than 80% of the genes in disco-r could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:40,556 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for elB could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:40,684 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for TfIIFalpha could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:41,062 - pyscenic.transform - WARNING - Less than 80% of the genes in Coop could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:41,074 - pyscenic.transform - WARNING - Less than 80% of the genes in SelR could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:41,074 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG9331 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:41,169 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Tob could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:41,190 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG34031 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:41,349 - pyscenic.transform - WARNING - Less than 80% of the genes in Socs36E could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:41,443 - pyscenic.transform - WARNING - Less than 80% of the genes in MTF-1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:41,771 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for gcm could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:42,020 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for erm could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:42,041 - pyscenic.transform - WARNING - Less than 80% of the genes in Socs36E could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:42,397 - pyscenic.transform - WARNING - Less than 80% of the genes in Mnt could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:42,483 - pyscenic.transform - WARNING - Less than 80% of the genes in sage could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:42,612 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Traf4 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:42,644 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG42458 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:42,921 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Oli could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:42,974 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Hsf could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,030 - pyscenic.transform - WARNING - Less than 80% of the genes in oc could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,093 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Trf2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,125 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG4328 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,127 - pyscenic.transform - WARNING - Less than 80% of the genes in CG10463 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,141 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for exd could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,391 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Elba2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,401 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Traf4 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,476 - pyscenic.transform - WARNING - Less than 80% of the genes in Stat92E could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,503 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Ing3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,528 - pyscenic.transform - WARNING - Less than 80% of the genes in Stat92E could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,562 - pyscenic.transform - WARNING - Less than 80% of the genes in pan could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,574 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Tudor-SN could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,603 - pyscenic.transform - WARNING - Less than 80% of the genes in CG11085 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,844 - pyscenic.transform - WARNING - Less than 80% of the genes in NC2alpha could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,954 - pyscenic.transform - WARNING - Less than 80% of the genes in Strn-Mlck could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:43,974 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Cf2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:44,007 - pyscenic.transform - WARNING - Less than 80% of the genes in elB could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:44,064 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for UGP could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:44,552 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Ubx could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:44,596 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for fd59A could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:44,630 - pyscenic.transform - WARNING - Less than 80% of the genes in pnt could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:44,800 - pyscenic.transform - WARNING - Less than 80% of the genes in NUCB1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:44,871 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Fer1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:44,889 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for UGP could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:44,988 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG2116 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:45,026 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Unc-76 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:45,170 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Pdp1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:45,275 - pyscenic.transform - WARNING - Less than 80% of the genes in Optix could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:45,355 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Fer2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:45,392 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Ubx could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:45,405 - pyscenic.transform - WARNING - Less than 80% of the genes in sens-2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:45,510 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Usf could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:45,752 - pyscenic.transform - WARNING - Less than 80% of the genes in Parp could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,009 - pyscenic.transform - WARNING - Less than 80% of the genes in TfIIFalpha could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,020 - pyscenic.transform - WARNING - Less than 80% of the genes in Tob could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,077 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for vnd could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,215 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for svp could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,227 - pyscenic.transform - WARNING - Less than 80% of the genes in Pdi could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,245 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for PpD3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,248 - pyscenic.transform - WARNING - Less than 80% of the genes in Dgp-1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,372 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Usf could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,407 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for gsb-n could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,457 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG31388 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,574 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for vri could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,716 - pyscenic.transform - WARNING - Less than 80% of the genes in Pdp1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,728 - pyscenic.transform - WARNING - Less than 80% of the genes in Dlip3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,948 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Vsx2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:46,969 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for h could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:47,012 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for MTF-1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:47,103 - pyscenic.transform - WARNING - Less than 80% of the genes in Traf4 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:47,324 - pyscenic.transform - WARNING - Less than 80% of the genes in Dll could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:47,456 - pyscenic.transform - WARNING - Less than 80% of the genes in CG12155 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:47,576 - pyscenic.transform - WARNING - Less than 80% of the genes in Traf4 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:47,585 - pyscenic.transform - WARNING - Less than 80% of the genes in sima could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:47,762 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for gcm could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:48,062 - pyscenic.transform - WARNING - Less than 80% of the genes in slp2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:48,187 - pyscenic.transform - WARNING - Less than 80% of the genes in Tudor-SN could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:48,365 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Xrp1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:48,400 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG3251 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:48,417 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for her could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:48,599 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Met could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:48,728 - pyscenic.transform - WARNING - Less than 80% of the genes in Ubx could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:48,767 - pyscenic.transform - WARNING - Less than 80% of the genes in E(spl)m7-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:48,841 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for ZIPIC could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:48,843 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for grn could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:49,035 - pyscenic.transform - WARNING - Less than 80% of the genes in sna could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:49,102 - pyscenic.transform - WARNING - Less than 80% of the genes in UGP could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:49,207 - pyscenic.transform - WARNING - Less than 80% of the genes in fd59A could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:49,236 - pyscenic.transform - WARNING - Less than 80% of the genes in Unc-76 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:49,236 - pyscenic.transform - WARNING - Less than 80% of the genes in E(spl)m8-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:49,369 - pyscenic.transform - WARNING - Less than 80% of the genes in net could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:49,590 - pyscenic.transform - WARNING - Less than 80% of the genes in Ubx could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:49,594 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for vnd could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:49,709 - pyscenic.transform - WARNING - Less than 80% of the genes in Usf could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:49,720 - pyscenic.transform - WARNING - Less than 80% of the genes in E(spl)mbeta-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:49,723 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for timeout could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:49,819 - pyscenic.transform - WARNING - Less than 80% of the genes in Fer2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:49,857 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG34031 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:49,876 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG5728 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:50,071 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for vri could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:50,105 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for ZIPIC could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:50,189 - pyscenic.transform - WARNING - Less than 80% of the genes in Vsx1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:50,208 - pyscenic.transform - WARNING - Less than 80% of the genes in E(spl)mdelta-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:50,339 - pyscenic.transform - WARNING - Less than 80% of the genes in nom could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:50,358 - pyscenic.transform - WARNING - Less than 80% of the genes in sqz could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:50,546 - pyscenic.transform - WARNING - Less than 80% of the genes in Rrp1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:50,557 - pyscenic.transform - WARNING - Less than 80% of the genes in Usf could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:50,560 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for vvl could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:50,663 - pyscenic.transform - WARNING - Less than 80% of the genes in Vsx2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:50,771 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for her could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:50,837 - pyscenic.transform - WARNING - Less than 80% of the genes in CG2116 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:50,913 - pyscenic.transform - WARNING - Less than 80% of the genes in Abl could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:50,991 - pyscenic.transform - WARNING - Less than 80% of the genes in svp could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:51,022 - pyscenic.transform - WARNING - Less than 80% of the genes in Six4 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:51,103 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Dab could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:51,314 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG6276 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:51,321 - pyscenic.transform - WARNING - Less than 80% of the genes in CG2608 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:51,394 - pyscenic.transform - WARNING - Less than 80% of the genes in Atf6 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:51,497 - pyscenic.transform - WARNING - Less than 80% of the genes in Socs36E could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:51,617 - pyscenic.transform - WARNING - Less than 80% of the genes in Xbp1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:51,630 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Gem3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:51,731 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for SMC3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:51,754 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for jumu could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:51,775 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG4328 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,005 - pyscenic.transform - WARNING - Less than 80% of the genes in trbl could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,009 - pyscenic.transform - WARNING - Less than 80% of the genes in Vsx2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,076 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Dlip3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,106 - pyscenic.transform - WARNING - Less than 80% of the genes in Xrp1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,233 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for kay could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,322 - pyscenic.transform - WARNING - Less than 80% of the genes in CG31388 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,348 - pyscenic.transform - WARNING - Less than 80% of the genes in su(Hw) could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,360 - pyscenic.transform - WARNING - Less than 80% of the genes in CG11779 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,522 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for gcm could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,546 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Dll could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,582 - pyscenic.transform - WARNING - Less than 80% of the genes in ZIPIC could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,609 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for HLH3B could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,762 - pyscenic.transform - WARNING - Less than 80% of the genes in gcm could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,770 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG7839 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:52,965 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Nnk could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:53,065 - pyscenic.transform - WARNING - Less than 80% of the genes in vri could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:53,210 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Socs36E could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:53,258 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for vnd could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:53,319 - pyscenic.transform - WARNING - Less than 80% of the genes in CG1236 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:53,601 - pyscenic.transform - WARNING - Less than 80% of the genes in vvl could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:53,628 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for ato could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:53,714 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Sox102F could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:53,726 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG8319 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:53,803 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for vri could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:53,835 - pyscenic.transform - WARNING - Less than 80% of the genes in timeout could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:53,987 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Dref could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:54,007 - pyscenic.transform - WARNING - Less than 80% of the genes in ZIPIC could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:54,061 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Oli could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:54,103 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Hmx could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:54,138 - pyscenic.transform - WARNING - Less than 80% of the genes in wor could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:54,300 - pyscenic.transform - WARNING - Less than 80% of the genes in CG2116 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:54,648 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for her could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:54,683 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG9281 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:54,932 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Abl could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:55,020 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for ato could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:55,088 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for lola could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:55,138 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Parp could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:55,165 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG5728 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:55,184 - pyscenic.transform - WARNING - Less than 80% of the genes in her could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:55,253 - pyscenic.transform - WARNING - Less than 80% of the genes in CG34031 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:55,459 - pyscenic.transform - WARNING - Less than 80% of the genes in CG3328 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:55,531 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for bnl could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:55,639 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG9650 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:55,643 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG5946 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:55,659 - pyscenic.transform - WARNING - Less than 80% of the genes in zfh2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:55,666 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Strn-Mlck could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:55,733 - pyscenic.transform - WARNING - Less than 80% of the genes in CG42458 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:55,981 - pyscenic.transform - WARNING - Less than 80% of the genes in CG34031 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:56,071 - pyscenic.transform - WARNING - Less than 80% of the genes in Gem3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:56,129 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for E(spl)mbeta-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:56,200 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Pdp1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:56,560 - pyscenic.transform - WARNING - Less than 80% of the genes in pan could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:56,621 - pyscenic.transform - WARNING - Less than 80% of the genes in hppy could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:56,622 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG6276 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:56,664 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for E(spl)mdelta-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:56,705 - pyscenic.transform - WARNING - Less than 80% of the genes in CG6769 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:56,847 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Atf6 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:56,901 - pyscenic.transform - WARNING - Less than 80% of the genes in FoxK could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:57,129 - pyscenic.transform - WARNING - Less than 80% of the genes in Abl could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:57,610 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CenG1A could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:57,727 - pyscenic.transform - WARNING - Less than 80% of the genes in vnd could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:57,793 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for PpD3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:58,065 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG7839 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:58,098 - pyscenic.transform - WARNING - Less than 80% of the genes in CG4328 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:58,139 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Cf2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:58,141 - pyscenic.transform - WARNING - Less than 80% of the genes in CG9650 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:58,212 - pyscenic.transform - WARNING - Less than 80% of the genes in vri could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:58,324 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for ind could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:58,346 - pyscenic.transform - WARNING - Less than 80% of the genes in Gem3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:58,562 - pyscenic.transform - WARNING - Less than 80% of the genes in Atf6 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:58,590 - pyscenic.transform - WARNING - Less than 80% of the genes in peb could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:58,827 - pyscenic.transform - WARNING - Less than 80% of the genes in Hmx could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:58,895 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for bsh could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:58,935 - pyscenic.transform - WARNING - Less than 80% of the genes in ato could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:59,009 - pyscenic.transform - WARNING - Less than 80% of the genes in Stat92E could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:59,096 - pyscenic.transform - WARNING - Less than 80% of the genes in Cf2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:59,205 - pyscenic.transform - WARNING - Less than 80% of the genes in ash2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:59,377 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for caup could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:59,507 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for bsh could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:59,545 - pyscenic.transform - WARNING - Less than 80% of the genes in pont could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:59,735 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG10463 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:59,740 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Coop could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:59,868 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for cbt could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:32:59,964 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Traf4 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:00,003 - pyscenic.transform - WARNING - Less than 80% of the genes in CG10463 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:00,442 - pyscenic.transform - WARNING - Less than 80% of the genes in TfIIFalpha could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:00,445 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for ind could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:00,483 - pyscenic.transform - WARNING - Less than 80% of the genes in CG11414 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:00,748 - pyscenic.transform - WARNING - Less than 80% of the genes in Hmx could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:00,803 - pyscenic.transform - WARNING - Less than 80% of the genes in bnl could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:00,914 - pyscenic.transform - WARNING - Less than 80% of the genes in Tob could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:00,960 - pyscenic.transform - WARNING - Less than 80% of the genes in CG11504 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:00,975 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Tudor-SN could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:01,170 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG11414 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:01,222 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(24): All regulons derived.
+
+2025-07-03 15:33:01,222 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(24): All regulons derived.
+
+2025-07-03 15:33:01,224 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(24): Done.
+
+2025-07-03 15:33:01,224 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(24): Done.
+
+2025-07-03 15:33:01,441 - pyscenic.transform - WARNING - Less than 80% of the genes in CG11779 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:01,468 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Ubx could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:01,488 - pyscenic.transform - WARNING - Less than 80% of the genes in CG5728 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:01,492 - pyscenic.transform - WARNING - Less than 80% of the genes in Dgp-1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:01,858 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Dbx could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:01,869 - pyscenic.transform - WARNING - Less than 80% of the genes in Traf4 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:01,933 - pyscenic.transform - WARNING - Less than 80% of the genes in brk could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:01,963 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Unc-76 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:01,968 - pyscenic.transform - WARNING - Less than 80% of the genes in Dll could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:01,971 - pyscenic.transform - WARNING - Less than 80% of the genes in CG5946 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:02,159 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Abl could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:02,357 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Dgp-1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:02,400 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(16): All regulons derived.
+
+2025-07-03 15:33:02,400 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(16): All regulons derived.
+
+2025-07-03 15:33:02,402 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(16): Done.
+
+2025-07-03 15:33:02,402 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(16): Done.
+
+2025-07-03 15:33:02,414 - pyscenic.transform - WARNING - Less than 80% of the genes in sage could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:02,456 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Usf could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:02,488 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for dati could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:02,492 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(22): All regulons derived.
+
+2025-07-03 15:33:02,492 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(22): All regulons derived.
+
+2025-07-03 15:33:02,494 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(22): Done.
+
+2025-07-03 15:33:02,494 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(22): Done.
+
+2025-07-03 15:33:02,642 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Adar could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:02,818 - pyscenic.transform - WARNING - Less than 80% of the genes in ind could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:02,874 - pyscenic.transform - WARNING - Less than 80% of the genes in Ubx could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:02,946 - pyscenic.transform - WARNING - Less than 80% of the genes in Hsf could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:02,951 - pyscenic.transform - WARNING - Less than 80% of the genes in CG6276 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,064 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for disco-r could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,066 - pyscenic.transform - WARNING - Less than 80% of the genes in E(spl)m7-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,068 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for nau could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,226 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(14): All regulons derived.
+
+2025-07-03 15:33:03,226 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(14): All regulons derived.
+
+2025-07-03 15:33:03,227 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(14): Done.
+
+2025-07-03 15:33:03,227 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(14): Done.
+
+2025-07-03 15:33:03,265 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(9): All regulons derived.
+
+2025-07-03 15:33:03,265 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(9): All regulons derived.
+
+2025-07-03 15:33:03,266 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(9): Done.
+
+2025-07-03 15:33:03,266 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(9): Done.
+
+2025-07-03 15:33:03,305 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Dlip3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,310 - pyscenic.transform - WARNING - Less than 80% of the genes in Hsf could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,425 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for SMC3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,525 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Met could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,584 - pyscenic.transform - WARNING - Less than 80% of the genes in Irbp18 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,770 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Dll could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,815 - pyscenic.transform - WARNING - Less than 80% of the genes in Vsx2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,867 - pyscenic.transform - WARNING - Less than 80% of the genes in Iswi could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,892 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Atf6 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,896 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Scr could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,904 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(11): All regulons derived.
+
+2025-07-03 15:33:03,904 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(11): All regulons derived.
+
+2025-07-03 15:33:03,905 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(11): Done.
+
+2025-07-03 15:33:03,905 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(11): Done.
+
+2025-07-03 15:33:03,919 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for dpn could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:03,934 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Vsx2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:04,292 - pyscenic.transform - WARNING - Less than 80% of the genes in XRCC1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:04,380 - pyscenic.transform - WARNING - Less than 80% of the genes in CG7839 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:04,442 - pyscenic.transform - WARNING - Less than 80% of the genes in Lim3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:04,727 - pyscenic.transform - WARNING - Less than 80% of the genes in MTF-1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:04,764 - pyscenic.transform - WARNING - Less than 80% of the genes in Xbp1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:05,058 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(12): All regulons derived.
+
+2025-07-03 15:33:05,058 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(12): All regulons derived.
+
+2025-07-03 15:33:05,060 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(12): Done.
+
+2025-07-03 15:33:05,060 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(12): Done.
+
+2025-07-03 15:33:05,208 - pyscenic.transform - WARNING - Less than 80% of the genes in crc could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:05,244 - pyscenic.transform - WARNING - Less than 80% of the genes in Xrp1 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:05,300 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Dref could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:05,323 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG11414 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:05,445 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for nom could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:05,567 - pyscenic.transform - WARNING - Less than 80% of the genes in Met could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:05,595 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Cf2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:05,629 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for lin-28 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:05,713 - pyscenic.transform - WARNING - Less than 80% of the genes in ZIPIC could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:05,782 - pyscenic.transform - WARNING - Less than 80% of the genes in cwo could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:05,849 - pyscenic.transform - WARNING - Less than 80% of the genes in Mnt could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:05,909 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for ZIPIC could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:05,995 - pyscenic.transform - WARNING - Less than 80% of the genes in shn could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:06,166 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for CG12071 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:06,184 - pyscenic.transform - WARNING - Less than 80% of the genes in ab could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:06,244 - pyscenic.transform - WARNING - Less than 80% of the genes in cyc could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:06,269 - pyscenic.transform - WARNING - Less than 80% of the genes in sima could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:06,496 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for l(1)sc could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:06,527 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Gem3 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:06,705 - pyscenic.transform - WARNING - Less than 80% of the genes in dati could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:06,707 - pyscenic.transform - WARNING - Less than 80% of the genes in NC2alpha could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:06,713 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(17): All regulons derived.
+
+2025-07-03 15:33:06,713 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(17): All regulons derived.
+
+2025-07-03 15:33:06,714 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(17): Done.
+
+2025-07-03 15:33:06,714 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(17): Done.
+
+2025-07-03 15:33:06,780 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(1): All regulons derived.
+
+2025-07-03 15:33:06,780 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(1): All regulons derived.
+
+2025-07-03 15:33:06,781 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(1): Done.
+
+2025-07-03 15:33:06,781 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(1): Done.
+
+2025-07-03 15:33:06,825 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for E(spl)m5-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:06,825 - pyscenic.transform - WARNING - Less than 80% of the genes in slp2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:07,258 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(20): All regulons derived.
+
+2025-07-03 15:33:07,258 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(20): All regulons derived.
+
+2025-07-03 15:33:07,260 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(20): Done.
+
+2025-07-03 15:33:07,260 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(20): Done.
+
+2025-07-03 15:33:07,282 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(5): All regulons derived.
+
+2025-07-03 15:33:07,282 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(5): All regulons derived.
+
+2025-07-03 15:33:07,284 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(5): Done.
+
+2025-07-03 15:33:07,284 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(5): Done.
+
+2025-07-03 15:33:07,381 - pyscenic.transform - WARNING - Less than 80% of the genes in sna could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:07,548 - pyscenic.transform - WARNING - Less than 80% of the genes in ash2 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:07,629 - pyscenic.transform - WARNING - Less than 80% of the genes in dpn could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:07,651 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for E(spl)mbeta-HLH could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:07,770 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Nnk could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:07,771 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(3): All regulons derived.
+
+2025-07-03 15:33:07,771 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(3): All regulons derived.
+
+2025-07-03 15:33:07,773 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(3): Done.
+
+2025-07-03 15:33:07,773 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(3): Done.
+
+2025-07-03 15:33:07,783 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Oli could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:07,984 - pyscenic.transform - WARNING - Less than 80% of the genes in sqz could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:08,096 - pyscenic.transform - WARNING - Less than 80% of the genes in egg could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:08,260 - pyscenic.transform - WARNING - Less than 80% of the genes in stau could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:08,359 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for otp could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:08,404 - pyscenic.transform - WARNING - Less than 80% of the genes in bnl could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:08,408 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for Hmx could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:08,531 - pyscenic.transform - WARNING - Less than 80% of the genes in stc could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:08,545 - pyscenic.transform - WARNING - Less than 80% of the genes in elB could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:08,590 - pyscenic.transform - WARNING - Less than 80% of the genes in l(1)sc could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:08,802 - pyscenic.transform - WARNING - Less than 80% of the genes in svp could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:08,871 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for pan could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:09,345 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(19): All regulons derived.
+
+2025-07-03 15:33:09,345 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(19): All regulons derived.
+
+2025-07-03 15:33:09,347 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(19): Done.
+
+2025-07-03 15:33:09,347 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(19): Done.
+
+2025-07-03 15:33:09,543 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(2): All regulons derived.
+
+2025-07-03 15:33:09,543 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(2): All regulons derived.
+
+2025-07-03 15:33:09,546 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(2): Done.
+
+2025-07-03 15:33:09,546 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(2): Done.
+
+2025-07-03 15:33:09,590 - pyscenic.transform - WARNING - Less than 80% of the genes in cbt could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:09,785 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(6): All regulons derived.
+
+2025-07-03 15:33:09,785 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(6): All regulons derived.
+
+2025-07-03 15:33:09,788 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(6): Done.
+
+2025-07-03 15:33:09,788 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(6): Done.
+
+2025-07-03 15:33:09,884 - pyscenic.transform - WARNING - Less than 80% of the genes in erm could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:09,890 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(18): All regulons derived.
+
+2025-07-03 15:33:09,890 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(18): All regulons derived.
+
+2025-07-03 15:33:09,891 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(18): Done.
+
+2025-07-03 15:33:09,891 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(18): Done.
+
+2025-07-03 15:33:09,914 - pyscenic.transform - WARNING - Less than 80% of the genes in cic could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:10,190 - pyscenic.transform - WARNING - Less than 80% of the genes in crc could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:10,389 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for pds5 could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:10,862 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for peb could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:11,077 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(10): All regulons derived.
+
+2025-07-03 15:33:11,077 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(10): All regulons derived.
+
+2025-07-03 15:33:11,078 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(10): Done.
+
+2025-07-03 15:33:11,078 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(10): Done.
+
+2025-07-03 15:33:11,319 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for pnt could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:11,554 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(23): All regulons derived.
+
+2025-07-03 15:33:11,554 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(23): All regulons derived.
+
+2025-07-03 15:33:11,557 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(23): Done.
+
+2025-07-03 15:33:11,557 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(23): Done.
+
+2025-07-03 15:33:12,021 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(21): All regulons derived.
+
+2025-07-03 15:33:12,021 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(21): All regulons derived.
+
+2025-07-03 15:33:12,022 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(21): Done.
+
+2025-07-03 15:33:12,022 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(21): Done.
+
+2025-07-03 15:33:12,094 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(7): All regulons derived.
+
+2025-07-03 15:33:12,094 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(7): All regulons derived.
+
+2025-07-03 15:33:12,096 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(7): Done.
+
+2025-07-03 15:33:12,096 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(7): Done.
+
+2025-07-03 15:33:12,209 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(13): All regulons derived.
+
+2025-07-03 15:33:12,209 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(13): All regulons derived.
+
+2025-07-03 15:33:12,210 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(13): Done.
+
+2025-07-03 15:33:12,210 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(13): Done.
+
+2025-07-03 15:33:12,508 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(15): All regulons derived.
+
+2025-07-03 15:33:12,508 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(15): All regulons derived.
+
+2025-07-03 15:33:12,509 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(15): Done.
+
+2025-07-03 15:33:12,509 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(15): Done.
+
+2025-07-03 15:33:13,265 - pyscenic.transform - WARNING - Less than 80% of the genes in Regulon for nom could be mapped to dm6_v10_clust.genes_vs_motifs.rankings. Skipping this module.
+
+2025-07-03 15:33:14,290 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(4): All regulons derived.
+
+2025-07-03 15:33:14,290 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(4): All regulons derived.
+
+2025-07-03 15:33:14,294 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(4): Done.
+
+2025-07-03 15:33:14,294 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(4): Done.
+
+2025-07-03 15:33:15,048 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(8): All regulons derived.
+
+2025-07-03 15:33:15,048 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(8): All regulons derived.
+
+2025-07-03 15:33:15,052 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(8): Done.
+
+2025-07-03 15:33:15,052 - pyscenic.prune - INFO - Worker dm6_v10_clust.genes_vs_motifs.rankings(8): Done.
+
+2025-07-03 15:33:15,093 - pyscenic.cli.pyscenic - INFO - Writing results to file.
+
+2025-07-03 15:33:23,218 - pyscenic.cli.pyscenic - INFO - Loading expression matrix.
+
+2025-07-03 15:33:30,679 - pyscenic.cli.pyscenic - INFO - Loading gene signatures.
+
+2025-07-03 15:33:30,760 - pyscenic.cli.pyscenic - INFO - Calculating cellular enrichment.
+
+2025-07-03 15:33:50,414 - pyscenic.cli.pyscenic - INFO - Writing results to file.
+/data/ebaird/miniconda3/envs/pyscenic/lib/python3.10/site-packages/pyscenic/cli/utils.py:347: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for name, threshold in auc_thresholds.iteritems()
